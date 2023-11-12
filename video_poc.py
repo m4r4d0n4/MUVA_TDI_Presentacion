@@ -5,7 +5,7 @@ import time
 cascade_path = 'cars.xml'
 
 # Ruta del video de prueba
-video_path = 'videos/video1.avi'
+video_path = 'videos/video2.avi'
 
 # Ruta del video de salida con detección
 output_video_path = 'output_video.avi'

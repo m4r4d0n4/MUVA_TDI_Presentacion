@@ -34,6 +34,8 @@ for (x, y, w, h) in objects:
     cv2.rectangle(resized_image, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
 # Mostrar la imagen redimensionada con los objetos detectados
-cv2.imshow('Detected Objects', resized_image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# Guarda la imagen procesada
+cv2.imwrite('output_image.jpg', resized_image)
+#cv2.imshow('Detected Objects', resized_image)
+#cv2.waitKey(0)
+#cv2.destroyAllWindows()
